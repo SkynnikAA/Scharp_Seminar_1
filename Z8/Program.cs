@@ -3,14 +3,14 @@
 // 8 -> 2, 4, 6, 8
 Console.Clear();
 Console.WriteLine("Ведите число:");
-int num = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine()); // число которое будет проверяться 
 int i = 1 ;
 
 while (i <= num)
 {
-    if (i % 2 ==0)
+    if (i % 2 ==0) // определяет четные числа
     {
-        Console.Write($"{i}, " );
+        Console.Write($"{i}, " ); // выводит четные числа пока не сравняется с введенным числом
     }
 i++;
 }
