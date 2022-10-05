@@ -3,14 +3,14 @@
 // -3 -> нет
 // 7 -> нет
 Console.Clear();
-int a ;
+ 
 Console.WriteLine("Ведите a:");
-a = Convert.ToInt32(Console.ReadLine());
-if (a % 2 ==1)
+int a = Convert.ToInt32(Console.ReadLine());
+if (a % 2 ==0)  //проверка на четность, если остаток от деления на 2 равен нулю то четное
 {
-    Console.WriteLine("НЕТ не четное ");
+    Console.WriteLine("ДА четное ");
 }
 else
 {
-    Console.WriteLine("ДА четное ");
+    Console.WriteLine("НЕТ не четное ");
 }
