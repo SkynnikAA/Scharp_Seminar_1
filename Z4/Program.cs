@@ -4,7 +4,7 @@
 // 22 3 9 -> 22
 
 Console.Clear();
-int max = 0;
+int max = 0;     // лучше использовать max = a, получается на 1 действие меньше, и будет работать с отрицательными числами
 Console.WriteLine("Ведите a:");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Ведите b:");
